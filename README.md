@@ -1,45 +1,30 @@
 # async_modular
 
-A modular asynchronous Pyrogram Client.
+This repository contains a template based on [PyrogramBot](https://github.com/Pyrogram/Assistant) and the instructions for setting it up yourself.
 
-## Installation
+This template features [Pyrogram Asyncio](https://github.com/pyrogram/pyrogram/issues/181) and [Smart Plugins](https://docs.pyrogram.org/topics/smart-plugins). Feel free to explore the Source Code and the [Documentation](https://docs.pyrogram.org) to learn more about these topic.
 
-First install the requirements:
+## Requirements
 
-```powershell
-pip install -r requirements.txt
-```
+* Python3.6 or higher.
+* A [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys).
 
-Then place a `my_bot.ini` in the root folder of this repository.
+## Run
+
+1. `git clone https://github.com/Pyrogram/async_modular`, to download the source code.
+2. `cd async_modular`, to enter the directory.
+3. `pip install -r requirements.txt`, to install the requirements.
+4. Create a new `my_bot.ini` file, copy-paste the folowing and replace the values with your own:
 
 ```ini
 [pyrogram]
-api_id = <your API ID here>
-api_hash = <your API HASH here>
+api_id = 123456
+api_hash = 0123456789abcdef0123456789abcdef
 ```
 
-The values needed for the `.ini` are available at [my.telegram.org](https://my.telegram.org/auth?to=apps).
+5. Run with python3 -m my_bot, stop with <kbd>CTRL+C</kbd>
 
-After that, execute with
+## License
 
-```powershell
-python -m my_bot
-```
-
-## More Plugins / Modules
-
-To add more functionality, just add another file in the [my_bot/plugins](my_bot/plugins) folder.
-
-Each module should start like this:
-
-```python
-from pyrogram import Filters
-
-from ..my_bot import My_Bot
-```
-
-## Documentation
-
-Each usable Method is explained and documented on [Pyrogram.org](https://docs.pyrogram.org).
-
-There is some commentary in the example files of this repository.
+MIT © 2019 [Colin](https://github.com/ColinTheShark)
+Pyrogram © 2017 - 2019 [Dan](https://github.com/delivrance)

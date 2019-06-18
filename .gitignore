@@ -1,6 +1,7 @@
-# Shoutout to VScode for saving settings in our Working Directory
+# Custom Ignore
 .vscode
-
+*.ini
+*.session
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
