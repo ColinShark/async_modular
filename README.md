@@ -26,5 +26,4 @@ api_hash = 0123456789abcdef0123456789abcdef
 
 ## License
 
-MIT © 2019 [Colin](https://github.com/ColinTheShark)
-Pyrogram © 2017 - 2019 [Dan](https://github.com/delivrance)
+MIT © 2019 [Dan](https://github.com/Delivrance) & [Colin](https://github.com/ColinTheShark)
